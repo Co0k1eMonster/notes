@@ -1,11 +1,11 @@
 ---
-title: "Ejpt"
-description: "feff"
+title: "Windows Enum and Pric Esc"
+description: ""
 summary: ""
-date: 2025-12-19T08:27:10+02:00
-lastmod: 2025-12-19T08:27:10+02:00
+date: 2025-12-19T12:20:52+02:00
+lastmod: 2025-12-19T12:20:52+02:00
 draft: false
-weight: 999
+weight: 920
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -13,5 +13,3 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
-cwewe
