@@ -1,5 +1,5 @@
 ---
-title: "Insecure Deeserialization"
+title: "Insecure Deserialization"
 description: ""
 summary: ""
 date: 2025-12-23T14:41:51+02:00
