@@ -197,40 +197,74 @@ eWPT is a hands-on, professional-level Red Team certification that simulates ski
 
 The Burp Suite Certified Practitioner (BSCP) is an official certification for web security professionals, from the makers of Burp Suite. Becoming a Burp Suite Certified Practitioner demonstrates a deep knowledge of web security vulnerabilities. The certification consist of a collection of 300+ labs. 
 
+### Curriculum
+| **Topic Category**              | **Specific Topic**                   | **Approx. Number of Labs**   |
+| ------------------------------- | ------------------------------------ | ---------------------------- |
+| **Server‑Side Vulnerabilities** | SQL Injection                        | 18 labs                      |
+|                                 | Authentication                       | 14 labs                      |
+|                                 | Path Traversal (Directory Traversal) | 6 labs   |
+|                                 | Command Injection                    | 5 labs   |
+|                                 | Business Logic Vulnerabilities       | 11 labs   |
+|                                 | Information Disclosure               | 5 labs   |
+|                                 | Access Control                       | 13 labs   |
+|                                 | File Upload Vulnerabilities          | 7 labs |
+|                                 | Race Conditions                      | 6 labs   |
+|                                 | Server‑Side Request Forgery (SSRF)   | 7 labs   |
+|                                 | XXE Injection                        | 9 labs  |
+|                                 | NoSQL Injection                      | 4 labs   |
+| **Client‑Side Vulnerabilities** | Cross‑Site Scripting (XSS)           | 30 labs   |
+|                                 | Cross‑Site Request Forgery (CSRF)    | 12 labs   |
+|                                 | Cross‑Origin Resource Sharing (CORS) | 4 labs  |
+|                                 | Clickjacking (UI Redressing)         | 5 labs   |
+|                                 | DOM‑Based Vulnerabilities            | 7 labs   |
+|                                 | WebSockets                           | 3 labs   |
+| **Advanced / Other Topics**     | Insecure Deserialization             | 10 labs  |
+|                                 | GraphQL API Vulnerabilities          | 5 labs    |
+|                                 | Server‑Side Template Injection       | 7 labs   |
+|                                 | Web Cache Poisoning                  | 13 labs  |
+|                                 | HTTP Host Header Attacks             | 7 labs   |
+|                                 | HTTP Request Smuggling               | 22 labs  |
+|                                 | OAuth Authentication                 | 6 labs   |
+|                                 | JWT Attacks                          | 8 labs   |
+|                                 | Prototype Pollution                  | 10 labs   |
+|                                 | Web LLM Attacks                      | 4 labs   |
+|                                 | Essential Skills                     | 2 labs  |
+
+
 ### Notes:
 {{< link-card
   title="Request Smuggling"
-  description="An overview of tools such as Nmap and Metasploit"
-  href="/docs/eWPT/info/"
+  description="An attack in which the web server and a proxy/load balancer disagree about where one HTTP request ends and the next begins. This lets the attacker “smuggle” a hidden request through the system."
+  href="/docs/bscp/request-smuggling/"
   target="_blank"
 >}}
 {{< link-card
-  title="Web Cache Poisoning"
-  description="Attaching code onto a legitimate website that will execute when the victim loads the website."
-  href="/docs/eWPT/xss/"
+  title="Web Cache Attacks"
+  description="Web cache Poisoning - the cache stores a malicious or incorrect response, which is then served to many users. Web Cache Deception - the cache stores private or sensitive content as if it were public."
+  href="/docs/bscp/web-cache-attacks/"
   target="_blank"
 >}}
 {{< link-card
-  title="JSON Web Tokens"
-  description="Code injection technique used to modify or retrieve data from SQL databases"
-  href="/docs/eWPT/sqli/"
+  title="JWT / oAuth Attacks"
+  description="Misconfigurations in the configurations of JWT/oAuth expose security vulnerabilities."
+  href="/docs/bscp/jwt-/-oauth-attacks/"
   target="_blank"
 >}}
 {{< link-card
   title="Cross Origin Resource Sharing"
-  description="Common attacks on CMS systems such as Wordpress and Joomla"
-  href="/docs/eWPT/cms/"
+  description="The implementation of CORS may contain mistakes or be overly lenient to ensure that everything works, and this can result in exploitable vulnerabilities."
+  href="/docs/bscp/cross-origin-resource-sharing/"
   target="_blank"
 >}}
 {{< link-card
   title="Prototype Pollution"
-  description="Accessing unauthorized files and directories outside a web application's intended folder."
-  href="/docs/eWPT/lfi/"
+  description="It enables attackers to add arbitrary properties to global object prototypes, which may then be inherited by user-defined objects."
+  href="/docs/bscp/prototype-pollution/"
   target="_blank"
 >}}
 {{< link-card
   title="Insecure Deserialization"
-  description="Exploring tools such as wafwoof and weeveley to automate attacks"
-  href="/docs/eWPT/tools/"
+  description="Insecure deserialization is when user-controllable data is deserialized by a website."
+  href="/docs/bscp/insecure-deeserialization/"
   target="_blank"
 >}}
