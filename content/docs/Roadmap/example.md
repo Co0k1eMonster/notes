@@ -268,3 +268,7 @@ The Burp Suite Certified Practitioner (BSCP) is an official certification for we
   href="/docs/bscp/insecure-deeserialization/"
   target="_blank"
 >}}
+
+## Conclusion
+
+This roadmap represents a strong foundation in both web development and penetration testing, starting from building a solid understanding of how websites work, then progressing through structured learning paths such as eJPT, eWPT, and BSCP. However, it’s important to understand that penetration testing is a field of continuous learning. This roadmap is not the end, but rather a starting point. Technology evolves, new vulnerabilities emerge, and attack techniques constantly change. Future topics to expand this roadmap include Active Directory and Mobile Security.
